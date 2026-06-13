@@ -37,3 +37,7 @@ The project aims to classify network traffic as normal or malicious/anomalous us
 
 ```bash
 pip install -r requirements.txt
+```
+## Deployment in IBM CLOUD:
+IBM Cloud Deployment Endpoint:
+https://au-syd.ml.cloud.ibm.com/ml/v4/deployments/cybershield_ai/predictions?version=2021-05-01
