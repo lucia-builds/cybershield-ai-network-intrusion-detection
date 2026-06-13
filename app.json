@@ -1,0 +1,23 @@
+{
+  "name": "cybershield-ai-network-intrusion-detection",
+  "description": "CyberShield AI is a Streamlit-based machine learning application for network intrusion detection using IBM watsonx.ai AutoAI deployment.",
+  "repository": "https://github.com/your-username/your-repository-name",
+  "keywords": [
+    "streamlit",
+    "machine-learning",
+    "cybersecurity",
+    "network-intrusion-detection",
+    "ibm-watsonx",
+    "autoai"
+  ],
+  "env": {
+    "IBM_API_KEY": {
+      "description": "IBM Cloud API key for accessing watsonx.ai deployment",
+      "required": true
+    },
+    "IBM_DEPLOYMENT_URL": {
+      "description": "IBM watsonx.ai online deployment prediction endpoint",
+      "required": true
+    }
+  }
+}
